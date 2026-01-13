@@ -25,5 +25,16 @@ export class Chamado{
      */
     setStatus(novo:boolean){
         this.status = novo;
+    } 
+    getStatus(): boolean{
+        return this.status;
     }
+    getSolicitante(): string{
+         return this.solicitante;
+    }
+    getDescricao(): string{
+        return this.descricao;
+    }
+ 
+
 }
